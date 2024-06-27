@@ -1,11 +1,12 @@
-import { createContext,useContext } from "import React from 'react'
+import { createContext,useContext } from 'react'
 
 export const Context = createContext({
     todos: [
         {
             id: "1",
             todo: "todo one",
-            completed: false
+            completed: false,
+           
         }
     ],
     addTodo: ()=>{},
